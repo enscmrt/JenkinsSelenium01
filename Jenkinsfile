@@ -5,6 +5,7 @@ pipeline {
         stage('Test') {
             steps {
                 bat 'mvn Pipeline Test'
+                echo 'Hello World'
             }
         }
     }
